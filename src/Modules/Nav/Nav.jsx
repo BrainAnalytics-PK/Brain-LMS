@@ -7,7 +7,8 @@ const Nav = () => {
     <>
       <div className="navbar-containter">
       <Grid container>
-          <Grid xs={3}>
+        <Grid xs={1}></Grid>
+          <Grid xs={2}>
             <div className='nav-logo-container'>
             <img src={Logo} alt="" className='navbar-image' />
             </div>
@@ -21,13 +22,13 @@ const Nav = () => {
               <ul><li>TESTIMONIALS</li></ul>
             </nav>
           </Grid>
-          <Grid xs={3}>
+          <Grid xs={2}>
             <div className='navbar-signup'>
             <nav className='navbar-nav'>
               <ul><li>CONTECT</li></ul>
               <ul><li>LOGIN</li></ul>
             </nav>
-            <button className='nav-signup-btn'>SIGN UP</button>
+            {/* <button className='nav-signup-btn'>SIGN UP</button> */}
             </div>
           </Grid>
         </Grid>
