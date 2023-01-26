@@ -26,7 +26,7 @@ const DataAnalysic = () =>{
                     </Grid>
                     <Grid xs={4}>
                         <div className="video-container">
-                            <img src={video} alt=""  className="video-img"/>
+                            <img src={video} alt="" className="video-img"/>
                         </div>
                     </Grid>
                 </Grid>
